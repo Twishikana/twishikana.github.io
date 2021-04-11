@@ -2629,10 +2629,10 @@ header .header-logo a {
   transition: all 0.3s ease-in-out;
 }
 
-.bricks-wrapper .item-wrap:hover .overlay::before {
+/* .bricks-wrapper .item-wrap:hover .overlay::before {
   opacity: 1;
   visibility: visible;
-}
+} */
 
 .bricks-wrapper .item-wrap:hover .overlay::after {
   opacity: 1;
