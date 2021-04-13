@@ -2525,7 +2525,7 @@ header .header-logo a {
   display: block;
   background: rgba(0, 0, 0, 0.8);
   opacity: 0;
-  /* visibility: hidden;  made change here*/
+  visibility: hidden;
   position: absolute;
   top: 0;
   left: 0;
@@ -2629,10 +2629,10 @@ header .header-logo a {
   transition: all 0.3s ease-in-out;
 }
 
-/* .bricks-wrapper .item-wrap:hover .overlay::before {
+.bricks-wrapper .item-wrap:hover .overlay::before {
   opacity: 1;
   visibility: visible;
-} */
+}
 
 .bricks-wrapper .item-wrap:hover .overlay::after {
   opacity: 1;
